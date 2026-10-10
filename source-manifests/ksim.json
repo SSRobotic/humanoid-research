@@ -1,0 +1,537 @@
+{
+  "slug": "kscalelabs/ksim",
+  "source_url": "https://github.com/kscalelabs/ksim",
+  "commit": "52265b581b7268758a2cf77234c70e2559087365",
+  "branch": "master",
+  "snapshot": "all tracked file blobs at the pinned commit",
+  "files": [
+    {
+      "path": ".darglint",
+      "sha": "355d7130e6c68712e7544babd4ece4c6638dfe21",
+      "size": 35,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha": "3473469aded6c77769ce938e4b318c11346883e7",
+      "size": 3027,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha": "96e6cee517e577e43c8146ce7d4e1e06d3e50e2c",
+      "size": 1901,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "ca02155abb981404d3e9bb64a49d9c62e0fbabe0",
+      "size": 353,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "9874c21d808e2fc3a7b3f4e93c208dffd670ebca",
+      "size": 1069,
+      "mode": "100644"
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha": "953c1790a768334921cb98c06e45a92e4ca379b1",
+      "size": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "Makefile",
+      "sha": "333db06e376b654581b284887014745856dfbbaa",
+      "size": 425,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "ea1d7806dd2495fb23314cb61fbb581ab69c7f62",
+      "size": 1215,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/policy.gif",
+      "sha": "5c5b0874d900648e4978c84771a63675a99d8e7c",
+      "size": 1880083,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/README.md",
+      "sha": "db804957c46b3e96561cc379379962c0464cfd4a",
+      "size": 966,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/data/scene.mjcf",
+      "sha": "f7d9fec1273b3a6f6a6782e3a8039dedf45b5160",
+      "size": 9356,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/.gitignore",
+      "sha": "ec10af8bd8f4c20300713fd55d998ce9b1705189",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/README.md",
+      "sha": "c56389a1eb6ac500526f752552a47f84c5e70fff",
+      "size": 384,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/convert.py",
+      "sha": "975cf04b5f76bdd205d2d35be50e3804dfffe313",
+      "size": 5044,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/requirements.txt",
+      "sha": "88f1ccd9571f9e49e19318a83e81eea3c6d6c347",
+      "size": 71,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KC_C_101R_ShldYokeDrive.stl",
+      "sha": "05e849af22474a697765d3278dc821771ed7a06d",
+      "size": 749884,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KC_C_202R.stl",
+      "sha": "e0d8734fa9aefa4b981f29ff4467ab00173766a4",
+      "size": 746734,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KC_C_401L_Up_Forearm_Drive.stl",
+      "sha": "b64d78b3287f18ee1763b9a8da3620b24ea2fdf3",
+      "size": 749284,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KC_C_401R_R_UpForearmDrive.stl",
+      "sha": "49285da07cc6709c194870c92979e1425ebf0e76",
+      "size": 749334,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_C_101L_ShldYokeDrive.stl",
+      "sha": "bb3c0c88866d1ecd04db8fd36fbc247cca994f21",
+      "size": 750084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_C_301L_LowerBicepDrive.stl",
+      "sha": "e9a90c0efeec6fbeb621f5221bef8509821cf16d",
+      "size": 747134,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_D_101L_L_Hip_Static.stl",
+      "sha": "421637c6b1a2a967ec21e5827902f193333db438",
+      "size": 713134,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_D_102L_L_Hip_Yoke_Drive.stl",
+      "sha": "699d2985cd747934e41fb22c38de6ce7de2246af",
+      "size": 748334,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_D_102R.stl",
+      "sha": "93ba64ccc4db658618e5b450bf8da25f5020f725",
+      "size": 748384,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_D_301L_L_Femur_Lower_Drive.stl",
+      "sha": "0232bff1820c9eeeb9e81b19ec08ac375fe908c4",
+      "size": 743084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_D_301R.stl",
+      "sha": "4cf94e14e9601b2cec2bb900927f9dcf9865df12",
+      "size": 743184,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_D_401L_L_Shin_Drive.stl",
+      "sha": "68e0e5bcafce7f8001bfe28eef274bf99e496141",
+      "size": 745634,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/KD_D_401R.stl",
+      "sha": "91871ced22d1b3786b703455b7ad574fa12579fe",
+      "size": 745734,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/LFootBushing_GPF_1517_12.stl",
+      "sha": "22c4f248c80060205d265239f24ea3d5c90cba05",
+      "size": 750084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/LFootBushing_GPF_1517_12_collision.stl",
+      "sha": "decbca0fa98aada6c14d8164a0203983c0d2d21f",
+      "size": 5084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/L_Hip_Roll_RS03.stl",
+      "sha": "2366bb2cbb4fb75f82495fd7367e65bcd9acd8d8",
+      "size": 746384,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/L_Hip_Roll_RS03_2.stl",
+      "sha": "ab5d0e26d8906cb40019c01d1e7ee095344670c0",
+      "size": 745584,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/PRT0001.stl",
+      "sha": "2b727c54b1b1669252fbfc40987ccdecf544d0be",
+      "size": 748084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/PRT0001_2.stl",
+      "sha": "bd3aaa9c97e3ce6b115e5ce297ca840b8e8ef042",
+      "size": 748084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/RFootBushing_GPF_1517_12.stl",
+      "sha": "86f983d6b2a3b1dfdda19e52e5bcb32f3ecc4629",
+      "size": 750084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/RFootBushing_GPF_1517_12_collision.stl",
+      "sha": "4e99eb10d45cd47948750aa0275fe51bfeab8819",
+      "size": 5084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/RS03_3.stl",
+      "sha": "1a872be55defd9b01487290af0303f5127205e0b",
+      "size": 744034,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/RS03_4.stl",
+      "sha": "f58d9f0d7d8ea7ce02264947afca37b85b04c299",
+      "size": 744134,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/meshes/imu.stl",
+      "sha": "4da5bdcdf51af875fc9c14253a9ea38a9eff8ed9",
+      "size": 11484,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/metadata.json",
+      "sha": "53ee56e0f63f7e8b240d9aa6333784235aee3c45",
+      "size": 8440,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/robot/kbot-headless/robot.mjcf",
+      "sha": "f901c8fb2f52e39d120e7bd99f5139f29aa7a6ef",
+      "size": 23167,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/kbot/train.py",
+      "sha": "922d00d1aa759875d86c63df9b8dffdddb13577f",
+      "size": 70385,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/walking.py",
+      "sha": "ab56f0c1ed7ed6d341f66d197ad990b412842b1e",
+      "size": 27385,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/__init__.py",
+      "sha": "5355d6e0a4a6a94cd7537d82758efb0d6d2154af",
+      "size": 501,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/actions.py",
+      "sha": "1de9be72630498023da29550ec6af398a01ab8ed",
+      "size": 8614,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/actuators.py",
+      "sha": "0f229764d65370377d0ca948d6e11e9e822bd5ef",
+      "size": 10415,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/commands.py",
+      "sha": "449687cf1c7e8196bf14fd226d446843e0f2f1a0",
+      "size": 32001,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/curriculum.py",
+      "sha": "ef674642e060dbf4c1703582ad22de10f3b2cf0a",
+      "size": 10304,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/dataset.py",
+      "sha": "be7689ddd24f6ad71322b648a1e20d37ba97bdcf",
+      "size": 6586,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/debugging.py",
+      "sha": "1c45abc9f0cab94289db232ebdc02eaa2386a565",
+      "size": 224,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/engine.py",
+      "sha": "254e8071d19e40d415faeb431d90f12a20e9de74",
+      "size": 18962,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/events.py",
+      "sha": "63387d6fcba77f37907d41155147c183c1b7799c",
+      "size": 13201,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/noise.py",
+      "sha": "759e3ac083466a864579fb89fb2de86e71595be2",
+      "size": 6984,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/observation.py",
+      "sha": "0364029f7d9a5d160607c289fc6691449a1d2ab4",
+      "size": 27244,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/py.typed",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/randomization.py",
+      "sha": "eb4cfa68ba7e636c86b69220a6c7295164c92eba",
+      "size": 17830,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/requirements-dev.txt",
+      "sha": "858405e208be38dfe42c541b0360c31f7e9f8cc0",
+      "size": 41,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/requirements.txt",
+      "sha": "1a4773a2ab3a25377b6606e33acfd76151bc54ce",
+      "size": 200,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/resets.py",
+      "sha": "a1c12157bcfdc0ac5dd3b9560511a53daa373e61",
+      "size": 14420,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/rewards.py",
+      "sha": "6c1ac7e26df64aa7341b9811c23503c6fbe3a4e0",
+      "size": 55488,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/scales.py",
+      "sha": "82b77b3c363d04ca37bca3e7d7d34aadcfbe0178",
+      "size": 3612,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/task/__init__.py",
+      "sha": "2573c7a049e2098589175043b95f56e8bddbd60b",
+      "size": 124,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/task/amp.py",
+      "sha": "6822e136e8f33cf467e778e90619dc7a25a02c25",
+      "size": 24135,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/task/ppo.py",
+      "sha": "63c2880158b5b6bf27e23a909ef085d0bf106a03",
+      "size": 25644,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/task/rl.py",
+      "sha": "72c1d0b87e513eb7c6f874acffbae5427f30c2a0",
+      "size": 99911,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/task/teacher.py",
+      "sha": "9cade01cead0f2b2dd42ec3e17fde2e49bc37ba6",
+      "size": 4409,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/terminations.py",
+      "sha": "8564bd9911d8c18cdb9e2474f11437281a15cb88",
+      "size": 6979,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/types.py",
+      "sha": "d74435ac764dd1cd7337adddb5cfbeac24a65125",
+      "size": 7877,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/utils/__init__.py",
+      "sha": "dbed1fd4194ee8f1d8ea1f0dcc945dd566fa83d9",
+      "size": 89,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/utils/api.py",
+      "sha": "0dee52c03e5195c4312dcb977ed3471d9ce96a97",
+      "size": 3050,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/utils/mujoco.py",
+      "sha": "483f7abe4ebbd6c45c817bfca4225ca6391fd20f",
+      "size": 20963,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/utils/priors.py",
+      "sha": "f0ebc394a320ab961758725a762f382e7212a13a",
+      "size": 31619,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/utils/validators.py",
+      "sha": "12b2a1c1d9a0de497c5aa09b3f5ec5701acb8d7d",
+      "size": 1818,
+      "mode": "100644"
+    },
+    {
+      "path": "ksim/vis.py",
+      "sha": "324fd481e1195ea93bc2b040f8e4d3c571372d4c",
+      "size": 9834,
+      "mode": "100644"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "c9ad765056e89ebe6e706566d98a854e147db93e",
+      "size": 1456,
+      "mode": "100644"
+    },
+    {
+      "path": "setup.py",
+      "sha": "0ccf12acf9c8e006f980e7a4cb0e58ad32725c49",
+      "size": 1396,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/assets/humanoid.mjcf",
+      "sha": "0616b4558404077df6efcadb57c5a3ecf50e4d1d",
+      "size": 10380,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha": "742168c068464b93775d24b04d67c77a8f587c85",
+      "size": 1207,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_commands.py",
+      "sha": "195c3f35273ab3ef56ce641e9a3e74b76570dcec",
+      "size": 3709,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_observation.py",
+      "sha": "6a2b6580930912a59a30ac233c681651238aa5f0",
+      "size": 1102,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_randomizations.py",
+      "sha": "3139200cc506e9422e36aa2d1b33f20a34b1f86d",
+      "size": 3591,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_resets.py",
+      "sha": "78f2b1ebebd1ecdaacc043ebe50af77e450b303e",
+      "size": 2453,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_rewards.py",
+      "sha": "f501a6adc5097b2029a09c31a68d716037b18498",
+      "size": 10176,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_terminations.py",
+      "sha": "6e4ec4eba2b0127fb4397aefd90ff25d6a5d29c4",
+      "size": 4467,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_training_e2e.py",
+      "sha": "5e5861b0f37e87250a918f9bf8f7759a065e3e9d",
+      "size": 317,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [],
+  "license": "MIT",
+  "folder": "projects/ksim",
+  "file_count": 87,
+  "bytes": 18214780,
+  "lfs_pointers": []
+}

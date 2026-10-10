@@ -1,10 +1,10 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">📚 Research & Benchmarks</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
-  <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-7-f28c28?style=flat-square" alt="7 curated resources"></a>
+  <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-8-f28c28?style=flat-square" alt="8 curated resources"></a>
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Language-TH_%2F_EN-555555?style=flat-square" alt="Thai and English"></a>
   <a href="https://github.com/SSRobotic/humanoid-robot-hub/blob/main/CREDITS.md"><img src="https://img.shields.io/badge/Original_sources-Credited-555555?style=flat-square" alt="Original authors credited"></a>
 </p>
@@ -29,6 +29,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [robomimic](https://github.com/ARISE-Initiative/robomimic) | Modular tools for learning robotic manipulation from demonstrations. | Imitation learning, Demonstrations, Manipulation | [ARISE-Initiative](https://github.com/ARISE-Initiative/robomimic) |
 | [Human2Humanoid / OmniH2O](https://github.com/LeCAR-Lab/human2humanoid) | Human-to-humanoid whole-body teleoperation and learning research. | Humanoid, Teleoperation, Whole-body | [LeCAR-Lab](https://github.com/LeCAR-Lab/human2humanoid) |
 | [Isaac Lab Arena](https://github.com/isaac-sim/IsaacLab-Arena) | Composable simulation tasks and policy evaluation built around Isaac Lab. | Isaac Lab, Policy evaluation, Benchmarks | [isaac-sim](https://github.com/isaac-sim/IsaacLab-Arena) |
+
+## 📦 Code & models in this repository
+
+**87 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [kscalelabs/ksim](projects/ksim) | 87 | [`52265b581b72`](https://github.com/kscalelabs/ksim/tree/52265b581b7268758a2cf77234c70e2559087365) | [LICENSE](projects/ksim/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-research.git
+cd humanoid-research
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
 
 ## 🚀 Start here
 
