@@ -16,19 +16,7 @@ Research code, published project references and embodied AI evaluation tools.
 
 โค้ดงานวิจัย แหล่งอ้างอิงโครงการ และการประเมิน Embodied AI
 
-Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repository is a focused resource directory and engineering guide. Linked SDKs, models and research implementations belong to their original creators.
-
-## 🗂️ Resource directory
-
-| Resource | What it provides | Keywords | Original source |
-| --- | --- | --- | --- |
-| [TienKung Lab](https://github.com/Open-X-Humanoid/TienKung-Lab) | Isaac Lab workflows for legged-robot learning, including TienKung. | TienKung, RL, Isaac Lab | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/TienKung-Lab) |
-| [XR-1](https://github.com/Open-X-Humanoid/XR-1) | Research code for vision-language-action models and unified vision-motion representations. | VLA, Embodied AI, Research | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/XR-1) |
-| [HEX](https://github.com/Open-X-Humanoid/HEX) | Whole-body vision-language-action research for full-sized humanoids. | Humanoid, VLA, Whole-body | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/HEX) |
-| [X-Humanoid VLA Benchmark](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) | Isaac Sim resources for evaluating vision-language-action policies. | VLA, Benchmark, Isaac Sim | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) |
-| [robomimic](https://github.com/ARISE-Initiative/robomimic) | Modular tools for learning robotic manipulation from demonstrations. | Imitation learning, Demonstrations, Manipulation | [ARISE-Initiative](https://github.com/ARISE-Initiative/robomimic) |
-| [Human2Humanoid / OmniH2O](https://github.com/LeCAR-Lab/human2humanoid) | Human-to-humanoid whole-body teleoperation and learning research. | Humanoid, Teleoperation, Whole-body | [LeCAR-Lab](https://github.com/LeCAR-Lab/human2humanoid) |
-| [Isaac Lab Arena](https://github.com/isaac-sim/IsaacLab-Arena) | Composable simulation tasks and policy evaluation built around Isaac Lab. | Isaac Lab, Policy evaluation, Benchmarks | [isaac-sim](https://github.com/isaac-sim/IsaacLab-Arena) |
+Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repository contains actual source files in `projects/`, with pinned upstream commits, retained licenses and an engineering guide. The imported implementations remain credited to their original creators.
 
 ## 📦 Code & models in this repository
 
@@ -46,6 +34,19 @@ cd humanoid-research
 ```
 
 Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
+
+## 🗂️ Resource directory
+
+| Resource | What it provides | Keywords | Original source |
+| --- | --- | --- | --- |
+| [TienKung Lab](https://github.com/Open-X-Humanoid/TienKung-Lab) | Isaac Lab workflows for legged-robot learning, including TienKung. | TienKung, RL, Isaac Lab | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/TienKung-Lab) |
+| [XR-1](https://github.com/Open-X-Humanoid/XR-1) | Research code for vision-language-action models and unified vision-motion representations. | VLA, Embodied AI, Research | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/XR-1) |
+| [HEX](https://github.com/Open-X-Humanoid/HEX) | Whole-body vision-language-action research for full-sized humanoids. | Humanoid, VLA, Whole-body | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/HEX) |
+| [X-Humanoid VLA Benchmark](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) | Isaac Sim resources for evaluating vision-language-action policies. | VLA, Benchmark, Isaac Sim | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) |
+| [robomimic](https://github.com/ARISE-Initiative/robomimic) | Modular tools for learning robotic manipulation from demonstrations. | Imitation learning, Demonstrations, Manipulation | [ARISE-Initiative](https://github.com/ARISE-Initiative/robomimic) |
+| [Human2Humanoid / OmniH2O](https://github.com/LeCAR-Lab/human2humanoid) | Human-to-humanoid whole-body teleoperation and learning research. | Humanoid, Teleoperation, Whole-body | [LeCAR-Lab](https://github.com/LeCAR-Lab/human2humanoid) |
+| [KSim](https://github.com/kscalelabs/ksim) | MuJoCo / JAX reinforcement-learning tools for humanoid tasks. | Humanoid, MuJoCo, JAX, RL | [kscalelabs](https://github.com/kscalelabs/ksim) |
+| [Isaac Lab Arena](https://github.com/isaac-sim/IsaacLab-Arena) | Composable simulation tasks and policy evaluation built around Isaac Lab. | Isaac Lab, Policy evaluation, Benchmarks | [isaac-sim](https://github.com/isaac-sim/IsaacLab-Arena) |
 
 ## 🚀 Start here
 
